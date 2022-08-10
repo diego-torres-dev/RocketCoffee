@@ -21,6 +21,7 @@
 
 body {
   background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -34,7 +35,18 @@ section {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+.price {
+  color: #2d2c2a;
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  line-height: 33px;
+}
+
 header h1 {
+  font-size: 28px;
   margin-bottom: 4px;
   animation-name: moveRight;
   animation-duration: 1.5s;
@@ -49,7 +61,13 @@ header h1 span {
   color: #995808;
 }
 
+header p {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: 16px;
+}
+
 section h2 {
+  font-size: 18px;
   background-color: #fed7aa;
   padding: 8px 16px;
   text-align: center;
@@ -81,5 +99,13 @@ li .details {
 }
 
 .details h3 {
+  font-size: 16px;
   margin-bottom: 8px;
+  line-height: 19px;
+}
+
+.details p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 21px;
 }
